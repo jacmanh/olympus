@@ -1,0 +1,7 @@
+.title {
+  font-weight: 500;
+
+  &.title--border-bottom {
+    border-bottom: 1px solid var(--border-color);
+  }
+}

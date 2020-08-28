@@ -1,0 +1,8 @@
+@import '~@jacmanh/theme/dist/index.css';
+
+body {
+  font-size: var(--font-size);
+  font-family: var(--primary-font);
+}
+
+@import './title.scss'

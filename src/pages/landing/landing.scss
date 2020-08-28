@@ -1,0 +1,72 @@
+body {
+  background-color: #ff5e3a;
+}
+
+.landing {
+  width: 80%;
+  margin: 40px auto;
+
+  --form-padding: 20px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template: "a b" 1fr;
+  gap: 0px 40px;
+}
+
+.intro {}
+
+.landing__form {
+  width: 100%;
+  background-color: #fff;
+  display: grid;
+  grid-template: "a b" 1fr / 70px;
+
+
+  .form {
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, auto);
+    grid-row-gap:  var(--form-padding);
+    padding: var(--form-padding);
+  }
+
+  .title {
+    padding-bottom: var(--form-padding);
+    margin-bottom: calc(var(--form-padding) / 2);
+
+    &:after {
+      content: "";
+      display: block;
+      margin-top: var(--form-padding);
+      position: absolute;
+      left: 0;
+      width: 100%;
+      border-bottom: 1px solid var(--border-color);
+    }
+  }
+}
+
+.landing__form-nav {
+  > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50%;
+    border: 1px solid var(--border-color);
+    border-left: none;
+    border-top: none;
+    font-size: 1.3rem;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:hover {
+      color: var(--action-color);
+      background-color: #fafbfd;
+    } 
+  }
+}

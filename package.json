@@ -3,11 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@jacmanh/button": "^1.0.4",
+    "@jacmanh/dropdown": "^0.0.1",
+    "@jacmanh/icon": "^0.0.1",
+    "@jacmanh/textfield": "^0.0.2",
+    "@jacmanh/theme": "^0.0.1",
+    "@jacmanh/utils": "^0.0.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.2"
   },
   "scripts": {
