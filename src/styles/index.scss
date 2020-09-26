@@ -3,6 +3,12 @@
 body {
   font-size: var(--font-size);
   font-family: var(--primary-font);
+  margin: 0;
 }
 
-@import './title.scss'
+.error {
+  color: var(--action-color);
+}
+
+@import './form.scss';
+@import './title.scss';

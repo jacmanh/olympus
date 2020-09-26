@@ -1,0 +1,35 @@
+.home {
+  display: grid;
+  min-height: 100vh;
+  grid-template: 
+    "top-menu top-menu" 60px
+    "sidebar-left content"
+    / minmax(30px, 60px) 1fr;
+}
+
+.menu-top {
+  grid-area: top-menu;
+  font-size: 1rem;
+
+  
+
+  ui-icon {
+    color: var(--secondary-light-color);
+    vertical-align: middle;
+    font-size: 1.5rem;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.sidebar-left {
+  grid-area: sidebar-left;
+  font-size: 1.3rem;
+}
+
+.content {
+  grid-area: content;
+  background-color: grey;
+}

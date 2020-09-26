@@ -1,0 +1,21 @@
+.form {
+  --field-gap: 20px;
+
+  &.disabled {
+    input {
+      background-color: grey;
+    }
+  }
+
+  .form__row {
+    display: flex;
+
+    & > * {
+      margin-left: var(--field-gap);
+    }
+
+    & > *:first-child {
+      margin-left: 0;
+    }
+  }
+}
